@@ -21,6 +21,6 @@ public class WebConfig implements WebMvcConfigurer {
                         /* 설명. vue 프로젝트를 8011로 접근되게 포트포워딩(8011:5173) 해서 컨테이너를 만들면 CORS 경로가 바뀔 수 있다. */
 //                        "http://localhost:8011"
                 )
-                .allowedMethods("GET", "POST", "PUT", "DELETE"); 
+                .allowedMethods("GET", "POST", "PUT", "DELETE");
     }
 }
