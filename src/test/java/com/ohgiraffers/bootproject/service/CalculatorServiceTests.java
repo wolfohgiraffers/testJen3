@@ -39,6 +39,6 @@ class CalculatorServiceTests {
         // then
         int actual = calculatorService.plus(input);
 
-        Assertions.assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual); 
     }
 }
