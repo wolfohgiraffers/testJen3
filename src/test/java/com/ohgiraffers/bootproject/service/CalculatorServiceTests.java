@@ -36,8 +36,8 @@ class CalculatorServiceTests {
         // when
         int expected = input.getNum1() + input.getNum2();
 
-        // then  
-        int actual = calculatorService.plus(input);
+        // then
+        int actual = calculatorService.plus(input);   
 
         Assertions.assertEquals(expected, actual);
     }
