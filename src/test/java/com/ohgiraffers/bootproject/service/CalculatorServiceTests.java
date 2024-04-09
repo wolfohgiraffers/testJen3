@@ -23,7 +23,7 @@ class CalculatorServiceTests {
     private static Stream<Arguments> provideDTOSource() {
         return Stream.of(
             Arguments.of(new CalculatorDTO(1, 2)),
-            Arguments.of(new CalculatorDTO(3, 5)),
+            Arguments.of(new CalculatorDTO(3, 5)), 
             Arguments.of(new CalculatorDTO(10, -2))
         );
     }
@@ -39,6 +39,6 @@ class CalculatorServiceTests {
         // then
         int actual = calculatorService.plus(input);
 
-        Assertions.assertEquals(expected, actual); 
+        Assertions.assertEquals(expected, actual);
     }
 }
