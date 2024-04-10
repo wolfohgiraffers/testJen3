@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
+@SpringBootTest 
 class CalculatorServiceTests {
 
     @Autowired
@@ -37,7 +37,7 @@ class CalculatorServiceTests {
         int expected = input.getNum1() + input.getNum2();
 
         // then
-        int actual = calculatorService.plus(input);   
+        int actual = calculatorService.plus(input);
 
         Assertions.assertEquals(expected, actual);
     }
